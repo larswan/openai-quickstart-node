@@ -7,7 +7,7 @@ export default function Home() {
   const [result, setResult] = useState();
 
 
-  
+
   async function onSubmit(event) {
     event.preventDefault();
     try {
@@ -42,7 +42,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <img src="/dog.png" className={styles.icon} />
-        <h3>Name my pet</h3>
+        <h3>What should I name my pet that has a 😳</h3>
         <form onSubmit={onSubmit}>
           <input
             type="text"
